@@ -26,7 +26,7 @@ greeting.greet();
 
 var bye = function() {
   console.log("Bye " + this.firstName + " " + this.lastName);
-}
+};
 
 greeting.BYE = bye;
 greeting.BYE();
